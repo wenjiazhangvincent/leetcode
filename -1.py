@@ -1,4 +1,4 @@
-x = range(10)
-print type(x)
-y = xrange(10)
-print type(y)
+row = [1]
+for i in xrange(10):
+    row = [x + y for x, y in zip([0]+row, row+[0])]
+    print row

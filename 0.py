@@ -1,7 +1,2 @@
-grid = [ [3, 0, 8, 4], 
-  [2, 4, 5, 7],
-  [9, 2, 6, 3],
-  [0, 3, 1, 0] ]
-
-for j in xrange(4):
-    print max(grid[j]), max(grid[:][j])
+x = [0,0,1,1,1,2,2,3,3,4]
+print list(set(x))
